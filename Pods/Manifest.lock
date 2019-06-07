@@ -1,0 +1,161 @@
+PODS:
+  - Alamofire (4.8.2)
+  - CryptoSwift (1.0.0)
+  - Differentiator (4.0.1)
+  - EasyAnimation (2.2)
+  - ESTabBarController-swift (2.7)
+  - GCDWebServer (3.5.2):
+    - GCDWebServer/Core (= 3.5.2)
+  - GCDWebServer/Core (3.5.2)
+  - Kingfisher (5.5.0)
+  - NSURLProtocolWebKitSupport (1.0)
+  - RASFloatingBall (2.0.0)
+  - RxCocoa (5.0.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.1)
+  - SDWebImage (5.0.3):
+    - SDWebImage/Core (= 5.0.3)
+  - SDWebImage/Core (5.0.3)
+  - SnapKit (5.0.0)
+  - SSZipArchive (2.2.2)
+  - STRegex (2.1.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (5.0.0)
+  - WechatOpenSDK (1.8.4)
+  - Weibo_SDK (3.2.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - CryptoSwift (from `https://github.com/krzyzanowskim/CryptoSwift`, branch `master`)
+  - EasyAnimation (from `https://github.com/icanzilb/EasyAnimation.git`)
+  - ESTabBarController-swift (from `https://github.com/eggswift/ESTabBarController.git`)
+  - GCDWebServer (from `https://github.com/swisspol/GCDWebServer.git`)
+  - Kingfisher (from `https://github.com/onevcat/Kingfisher.git`)
+  - NSURLProtocolWebKitSupport
+  - RASFloatingBall (from `https://github.com/air1120/RASFloatingBall.git`)
+  - RxCocoa (from `https://github.com/ReactiveX/RxSwift.git`)
+  - RxDataSources (from `https://github.com/RxSwiftCommunity/RxDataSources.git`)
+  - RxSwift (from `https://github.com/ReactiveX/RxSwift.git`)
+  - SDWebImage (from `https://github.com/SDWebImage/SDWebImage.git`)
+  - SnapKit
+  - SSZipArchive (from `https://github.com/ZipArchive/ZipArchive.git`)
+  - STRegex
+  - SVProgressHUD (from `https://github.com/SVProgressHUD/SVProgressHUD.git`)
+  - SwiftyJSON
+  - WechatOpenSDK
+  - Weibo_SDK (from `https://github.com/sinaweibosdk/weibo_ios_sdk.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Differentiator
+    - NSURLProtocolWebKitSupport
+    - RxRelay
+    - SnapKit
+    - STRegex
+    - SwiftyJSON
+    - WechatOpenSDK
+
+EXTERNAL SOURCES:
+  CryptoSwift:
+    :branch: master
+    :git: https://github.com/krzyzanowskim/CryptoSwift
+  EasyAnimation:
+    :git: https://github.com/icanzilb/EasyAnimation.git
+  ESTabBarController-swift:
+    :git: https://github.com/eggswift/ESTabBarController.git
+  GCDWebServer:
+    :git: https://github.com/swisspol/GCDWebServer.git
+  Kingfisher:
+    :git: https://github.com/onevcat/Kingfisher.git
+  RASFloatingBall:
+    :git: https://github.com/air1120/RASFloatingBall.git
+  RxCocoa:
+    :git: https://github.com/ReactiveX/RxSwift.git
+  RxDataSources:
+    :git: https://github.com/RxSwiftCommunity/RxDataSources.git
+  RxSwift:
+    :git: https://github.com/ReactiveX/RxSwift.git
+  SDWebImage:
+    :git: https://github.com/SDWebImage/SDWebImage.git
+  SSZipArchive:
+    :git: https://github.com/ZipArchive/ZipArchive.git
+  SVProgressHUD:
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+  Weibo_SDK:
+    :git: https://github.com/sinaweibosdk/weibo_ios_sdk.git
+
+CHECKOUT OPTIONS:
+  CryptoSwift:
+    :commit: 8559320dc5f5e4a7447e2ee146324986deb0ebc9
+    :git: https://github.com/krzyzanowskim/CryptoSwift
+  EasyAnimation:
+    :commit: 4ed72aebe9dc610b92d4d607d398f381b7451a1e
+    :git: https://github.com/icanzilb/EasyAnimation.git
+  ESTabBarController-swift:
+    :commit: d9a2fba128dd10677c345a2ea28cc5f5bd9b37c9
+    :git: https://github.com/eggswift/ESTabBarController.git
+  GCDWebServer:
+    :commit: c3c7aaad00faf279e1fb8a230a54c24336a2725d
+    :git: https://github.com/swisspol/GCDWebServer.git
+  Kingfisher:
+    :commit: a37001e163c0f6c2cdd28845f8c732ebbdfd0eb2
+    :git: https://github.com/onevcat/Kingfisher.git
+  RASFloatingBall:
+    :commit: a5321591081755f7f079f913bc6bd03ddba11dcf
+    :git: https://github.com/air1120/RASFloatingBall.git
+  RxCocoa:
+    :commit: 70b8a33c5c3f4c3b15ebf10b638d2b15cfafb814
+    :git: https://github.com/ReactiveX/RxSwift.git
+  RxDataSources:
+    :commit: 8abe183519b8bb52c9c130a07d7ef61943672027
+    :git: https://github.com/RxSwiftCommunity/RxDataSources.git
+  RxSwift:
+    :commit: 70b8a33c5c3f4c3b15ebf10b638d2b15cfafb814
+    :git: https://github.com/ReactiveX/RxSwift.git
+  SDWebImage:
+    :commit: eee947305e630d3f58e55db9ff457140c9850fff
+    :git: https://github.com/SDWebImage/SDWebImage.git
+  SSZipArchive:
+    :commit: 3078747d91537e8c5cea89971bb21e7a1d687d0c
+    :git: https://github.com/ZipArchive/ZipArchive.git
+  SVProgressHUD:
+    :commit: e2a6aaa12321962cbe9fbecc370475f369c6566c
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+  Weibo_SDK:
+    :commit: f5b138320aefe0ed20b76b8510521432f1a6c9ac
+    :git: https://github.com/sinaweibosdk/weibo_ios_sdk.git
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  CryptoSwift: d81eeaa59dc5a8d03720fe919a6fd07b51f7439f
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  EasyAnimation: a5117bc37f18721e30a20a039562d7e232639485
+  ESTabBarController-swift: ad71a2ccc38fa622a78122cc28ca093e65552446
+  GCDWebServer: ead88cd14596dd4eae4f5830b8877c87c8728990
+  Kingfisher: a9fc3f71da238806d97cb800a2aa8fad1131149f
+  NSURLProtocolWebKitSupport: df973dc4c6a11a4e8af48b6886ec3de15ee2c5da
+  RASFloatingBall: c4815700ee26f37f5cb283465e8498c1faccf424
+  RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
+  RxDataSources: 468907bf48f9599d49ea05743b36a9e7703a2ed4
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
+  SDWebImage: d4f87d7d36c8a4d9f9459dc282e0caa057fdf935
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
+  SSZipArchive: fa16b8cc4cdeceb698e5e5d9f67e9558532fbf23
+  STRegex: dfa420d93d8c1402956233b3879ec1fc14b45fbe
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  WechatOpenSDK: 9b721089507c895d05f997408c30bb6e6f5f9b60
+  Weibo_SDK: 652ca78c2f7147a5de5e75e7cbea89838a81772a
+
+PODFILE CHECKSUM: 4860446ba2bf914525b9ff9265c8a4c91e5eabec
+
+COCOAPODS: 1.7.1

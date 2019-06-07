@@ -1,0 +1,6 @@
+framework module RASFloatingBall {
+  umbrella header "RASFloatingBall-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module NSURLProtocolWebKitSupport {
+  umbrella header "NSURLProtocolWebKitSupport-umbrella.h"
+
+  export *
+  module * { export * }
+}

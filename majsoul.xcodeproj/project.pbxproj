@@ -1,0 +1,1126 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0202EBFC22A234860084FD67 /* 解锁全人物.majplugin in Resources */ = {isa = PBXBuildFile; fileRef = 0202EBFB22A234860084FD67 /* 解锁全人物.majplugin */; };
+		020FBA8A229EF90800880ACD /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 020FBA89229EF90800880ACD /* TencentOpenAPI.framework */; };
+		020FBA8C229EF93000880ACD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 020FBA8B229EF93000880ACD /* Security.framework */; };
+		020FBA8E229EF93A00880ACD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 020FBA8D229EF93A00880ACD /* SystemConfiguration.framework */; };
+		020FBA90229EF94200880ACD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 020FBA8F229EF94200880ACD /* CoreGraphics.framework */; };
+		020FBA92229EF94A00880ACD /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 020FBA91229EF94A00880ACD /* CoreTelephony.framework */; };
+		020FBA94229EF96A00880ACD /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 020FBA93229EF96A00880ACD /* libiconv.tbd */; };
+		020FBA96229EF97900880ACD /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 020FBA95229EF97900880ACD /* libsqlite3.tbd */; };
+		020FBA98229EF99200880ACD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 020FBA97229EF99200880ACD /* libz.tbd */; };
+		020FBA9A229EF9DA00880ACD /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 020FBA99229EF9DA00880ACD /* libc++.tbd */; };
+		0289C11022A517230084E0CD /* LoggerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0289C10F22A517220084E0CD /* LoggerViewController.swift */; };
+		0289C11222A5172D0084E0CD /* PluginsMallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0289C11122A5172D0084E0CD /* PluginsMallViewController.swift */; };
+		0289C11422A517350084E0CD /* ControlController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0289C11322A517350084E0CD /* ControlController.swift */; };
+		0289C11722A5177F0084E0CD /* MainNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0289C11522A5177E0084E0CD /* MainNavViewController.swift */; };
+		0289C11822A5177F0084E0CD /* MainTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0289C11622A5177E0084E0CD /* MainTabbarViewController.swift */; };
+		0289C11A22A517910084E0CD /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0289C11922A517910084E0CD /* AboutViewController.swift */; };
+		0289C11C22A517A30084E0CD /* PluginsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0289C11B22A517A30084E0CD /* PluginsViewController.swift */; };
+		02951BCD229E7F8E007FC59B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02951BCC229E7F8E007FC59B /* AppDelegate.swift */; };
+		02951BCF229E7F8E007FC59B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02951BCE229E7F8E007FC59B /* ViewController.swift */; };
+		02951BD2229E7F8E007FC59B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02951BD0229E7F8E007FC59B /* Main.storyboard */; };
+		02951BD4229E7F8F007FC59B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02951BD3229E7F8F007FC59B /* Assets.xcassets */; };
+		02951BD7229E7F8F007FC59B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02951BD5229E7F8F007FC59B /* LaunchScreen.storyboard */; };
+		02951BE2229E7F8F007FC59B /* majsoulTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02951BE1229E7F8F007FC59B /* majsoulTests.swift */; };
+		02951BED229E7F8F007FC59B /* majsoulUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02951BEC229E7F8F007FC59B /* majsoulUITests.swift */; };
+		02B8A251229EFA4A0080F954 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 02B8A250229EFA4A0080F954 /* libstdc++.tbd */; };
+		02B8A253229F00F60080F954 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02B8A252229F00F60080F954 /* CFNetwork.framework */; };
+		02E87739229F81B100E6C088 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E87737229F81B100E6C088 /* MainViewController.swift */; };
+		02E8774A229F822600E6C088 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E87748229F822600E6C088 /* Extensions.swift */; };
+		02E8774B229F822600E6C088 /* Uitl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E87749229F822600E6C088 /* Uitl.swift */; };
+		02E8774D229F823200E6C088 /* MajsoulProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E8774C229F823200E6C088 /* MajsoulProtocol.swift */; };
+		02E8775A229F824F00E6C088 /* 一姬立绘修改.majplugin in Resources */ = {isa = PBXBuildFile; fileRef = 02E8774E229F824E00E6C088 /* 一姬立绘修改.majplugin */; };
+		02E8775B229F824F00E6C088 /* 开启报菜名.majplugin in Resources */ = {isa = PBXBuildFile; fileRef = 02E8774F229F824E00E6C088 /* 开启报菜名.majplugin */; };
+		02E8775C229F824F00E6C088 /* init.js in Resources */ = {isa = PBXBuildFile; fileRef = 02E87750229F824E00E6C088 /* init.js */; };
+		02E8775D229F824F00E6C088 /* BridgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E87751229F824E00E6C088 /* BridgeViewController.m */; };
+		02E8775E229F824F00E6C088 /* 修改麻将牌.majplugin in Resources */ = {isa = PBXBuildFile; fileRef = 02E87752229F824E00E6C088 /* 修改麻将牌.majplugin */; };
+		02E8775F229F824F00E6C088 /* loading_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 02E87753229F824E00E6C088 /* loading_1.gif */; };
+		02E87760229F824F00E6C088 /* 修改点数显示板.majplugin in Resources */ = {isa = PBXBuildFile; fileRef = 02E87754229F824E00E6C088 /* 修改点数显示板.majplugin */; };
+		02E87761229F824F00E6C088 /* 关闭实名认证.majplugin in Resources */ = {isa = PBXBuildFile; fileRef = 02E87755229F824E00E6C088 /* 关闭实名认证.majplugin */; };
+		02E87762229F824F00E6C088 /* loading_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 02E87757229F824E00E6C088 /* loading_2.gif */; };
+		02E87763229F824F00E6C088 /* 修改背景.majplugin in Resources */ = {isa = PBXBuildFile; fileRef = 02E87758229F824E00E6C088 /* 修改背景.majplugin */; };
+		02E87764229F824F00E6C088 /* loading_3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 02E87759229F824E00E6C088 /* loading_3.gif */; };
+		02F9CD7222A20EF600F20F0E /* GCDWebUploader.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 02F9CD7122A20EF600F20F0E /* GCDWebUploader.bundle */; };
+		02F9CD7622A20F1300F20F0E /* GCDWebUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F9CD7422A20F1300F20F0E /* GCDWebUploader.m */; };
+		C86FEDE23A358D629737AA87 /* Pods_majsoulTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CE3E32D953BDD589C46643 /* Pods_majsoulTests.framework */; };
+		C93636CD0835EE95A4538285 /* Pods_majsoul.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6E5EAE0D4A47D7110E8219 /* Pods_majsoul.framework */; };
+		F8E35CE7E8184422A6C0FC3B /* Pods_majsoulUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981C4975F535518804C88E58 /* Pods_majsoulUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02951BDE229E7F8F007FC59B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02951BC1229E7F8E007FC59B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02951BC8229E7F8E007FC59B;
+			remoteInfo = majsoul;
+		};
+		02951BE9229E7F8F007FC59B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02951BC1229E7F8E007FC59B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02951BC8229E7F8E007FC59B;
+			remoteInfo = majsoul;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0202EBFB22A234860084FD67 /* 解锁全人物.majplugin */ = {isa = PBXFileReference; lastKnownFileType = file; name = "解锁全人物.majplugin"; path = "Resource/解锁全人物.majplugin"; sourceTree = SOURCE_ROOT; };
+		020FBA89229EF90800880ACD /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		020FBA8B229EF93000880ACD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		020FBA8D229EF93A00880ACD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		020FBA8F229EF94200880ACD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		020FBA91229EF94A00880ACD /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		020FBA93229EF96A00880ACD /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		020FBA95229EF97900880ACD /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		020FBA97229EF99200880ACD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		020FBA99229EF9DA00880ACD /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		0288F8CC22A0BDC0009AEAF0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		0288F8CD22A0BDC0009AEAF0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		0289C10F22A517220084E0CD /* LoggerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoggerViewController.swift; path = Control/Logger/LoggerViewController.swift; sourceTree = SOURCE_ROOT; };
+		0289C11122A5172D0084E0CD /* PluginsMallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PluginsMallViewController.swift; path = Control/PluginsMall/PluginsMallViewController.swift; sourceTree = SOURCE_ROOT; };
+		0289C11322A517350084E0CD /* ControlController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ControlController.swift; path = Control/ControlController.swift; sourceTree = SOURCE_ROOT; };
+		0289C11522A5177E0084E0CD /* MainNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainNavViewController.swift; path = Control/ViewModel/MainNavViewController.swift; sourceTree = SOURCE_ROOT; };
+		0289C11622A5177E0084E0CD /* MainTabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTabbarViewController.swift; path = Control/ViewModel/MainTabbarViewController.swift; sourceTree = SOURCE_ROOT; };
+		0289C11922A517910084E0CD /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutViewController.swift; path = Control/About/AboutViewController.swift; sourceTree = SOURCE_ROOT; };
+		0289C11B22A517A30084E0CD /* PluginsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PluginsViewController.swift; path = Control/Plugins/PluginsViewController.swift; sourceTree = SOURCE_ROOT; };
+		02951BC9229E7F8E007FC59B /* 雀魂X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "雀魂X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02951BCC229E7F8E007FC59B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02951BCE229E7F8E007FC59B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		02951BD1229E7F8E007FC59B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02951BD3229E7F8F007FC59B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02951BD6229E7F8F007FC59B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02951BD8229E7F8F007FC59B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02951BDD229E7F8F007FC59B /* majsoulTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = majsoulTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02951BE1229E7F8F007FC59B /* majsoulTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = majsoulTests.swift; sourceTree = "<group>"; };
+		02951BE3229E7F8F007FC59B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02951BE8229E7F8F007FC59B /* majsoulUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = majsoulUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02951BEC229E7F8F007FC59B /* majsoulUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = majsoulUITests.swift; sourceTree = "<group>"; };
+		02951BEE229E7F8F007FC59B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02B8A250229EFA4A0080F954 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		02B8A252229F00F60080F954 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		02E87737229F81B100E6C088 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = majsoul/Classes/View/Main/MainViewController.swift; sourceTree = SOURCE_ROOT; };
+		02E87748229F822600E6C088 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = majsoul/Classes/Tool/Util/Extensions.swift; sourceTree = SOURCE_ROOT; };
+		02E87749229F822600E6C088 /* Uitl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Uitl.swift; path = majsoul/Classes/Tool/Util/Uitl.swift; sourceTree = SOURCE_ROOT; };
+		02E8774C229F823200E6C088 /* MajsoulProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MajsoulProtocol.swift; path = majsoul/Classes/Tool/Thor/MajsoulProtocol.swift; sourceTree = SOURCE_ROOT; };
+		02E8774E229F824E00E6C088 /* 一姬立绘修改.majplugin */ = {isa = PBXFileReference; lastKnownFileType = file; name = "一姬立绘修改.majplugin"; path = "majsoul/Classes/一姬立绘修改.majplugin"; sourceTree = SOURCE_ROOT; };
+		02E8774F229F824E00E6C088 /* 开启报菜名.majplugin */ = {isa = PBXFileReference; lastKnownFileType = file; name = "开启报菜名.majplugin"; path = "majsoul/Classes/开启报菜名.majplugin"; sourceTree = SOURCE_ROOT; };
+		02E87750229F824E00E6C088 /* init.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = init.js; path = majsoul/Classes/init.js; sourceTree = SOURCE_ROOT; };
+		02E87751229F824E00E6C088 /* BridgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BridgeViewController.m; path = majsoul/Classes/BridgeViewController.m; sourceTree = SOURCE_ROOT; };
+		02E87752229F824E00E6C088 /* 修改麻将牌.majplugin */ = {isa = PBXFileReference; lastKnownFileType = file; name = "修改麻将牌.majplugin"; path = "majsoul/Classes/修改麻将牌.majplugin"; sourceTree = SOURCE_ROOT; };
+		02E87753229F824E00E6C088 /* loading_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = loading_1.gif; path = majsoul/Classes/loading_1.gif; sourceTree = SOURCE_ROOT; };
+		02E87754229F824E00E6C088 /* 修改点数显示板.majplugin */ = {isa = PBXFileReference; lastKnownFileType = file; name = "修改点数显示板.majplugin"; path = "majsoul/Classes/修改点数显示板.majplugin"; sourceTree = SOURCE_ROOT; };
+		02E87755229F824E00E6C088 /* 关闭实名认证.majplugin */ = {isa = PBXFileReference; lastKnownFileType = file; name = "关闭实名认证.majplugin"; path = "majsoul/Classes/关闭实名认证.majplugin"; sourceTree = SOURCE_ROOT; };
+		02E87756229F824E00E6C088 /* BridgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BridgeViewController.h; path = majsoul/Classes/BridgeViewController.h; sourceTree = SOURCE_ROOT; };
+		02E87757229F824E00E6C088 /* loading_2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = loading_2.gif; path = majsoul/Classes/loading_2.gif; sourceTree = SOURCE_ROOT; };
+		02E87758229F824E00E6C088 /* 修改背景.majplugin */ = {isa = PBXFileReference; lastKnownFileType = file; name = "修改背景.majplugin"; path = "majsoul/Classes/修改背景.majplugin"; sourceTree = SOURCE_ROOT; };
+		02E87759229F824E00E6C088 /* loading_3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = loading_3.gif; path = majsoul/Classes/loading_3.gif; sourceTree = SOURCE_ROOT; };
+		02E87765229F825D00E6C088 /* magic-majsoul-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "magic-majsoul-Bridging-Header.h"; path = "majsoul/Classes/magic-majsoul-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		02F9CD7122A20EF600F20F0E /* GCDWebUploader.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GCDWebUploader.bundle; sourceTree = "<group>"; };
+		02F9CD7422A20F1300F20F0E /* GCDWebUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDWebUploader.m; path = Tool/GCDWebServerUploader/GCDWebUploader.m; sourceTree = SOURCE_ROOT; };
+		02F9CD7522A20F1300F20F0E /* GCDWebUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDWebUploader.h; path = Tool/GCDWebServerUploader/GCDWebUploader.h; sourceTree = SOURCE_ROOT; };
+		08CC2BE57E850E5E40EC3D30 /* Pods-majsoulUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-majsoulUITests.release.xcconfig"; path = "Target Support Files/Pods-majsoulUITests/Pods-majsoulUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1C88E3487A7B1DFBEE1E61F3 /* Pods-majsoulUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-majsoulUITests.debug.xcconfig"; path = "Target Support Files/Pods-majsoulUITests/Pods-majsoulUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		380BA8DF66CB29421E04F60B /* Pods-majsoulTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-majsoulTests.debug.xcconfig"; path = "Target Support Files/Pods-majsoulTests/Pods-majsoulTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5823665C57B8E21C064B13D4 /* Pods-majsoul.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-majsoul.release.xcconfig"; path = "Target Support Files/Pods-majsoul/Pods-majsoul.release.xcconfig"; sourceTree = "<group>"; };
+		6AD3A68A1A191C072ADEF23A /* Pods-majsoulTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-majsoulTests.release.xcconfig"; path = "Target Support Files/Pods-majsoulTests/Pods-majsoulTests.release.xcconfig"; sourceTree = "<group>"; };
+		981C4975F535518804C88E58 /* Pods_majsoulUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_majsoulUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6E5EAE0D4A47D7110E8219 /* Pods_majsoul.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_majsoul.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA45B167ABC3500BBF3DE556 /* Pods-majsoul.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-majsoul.debug.xcconfig"; path = "Target Support Files/Pods-majsoul/Pods-majsoul.debug.xcconfig"; sourceTree = "<group>"; };
+		B2CE3E32D953BDD589C46643 /* Pods_majsoulTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_majsoulTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02951BC6229E7F8E007FC59B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B8A253229F00F60080F954 /* CFNetwork.framework in Frameworks */,
+				02B8A251229EFA4A0080F954 /* libstdc++.tbd in Frameworks */,
+				020FBA9A229EF9DA00880ACD /* libc++.tbd in Frameworks */,
+				020FBA98229EF99200880ACD /* libz.tbd in Frameworks */,
+				020FBA96229EF97900880ACD /* libsqlite3.tbd in Frameworks */,
+				020FBA94229EF96A00880ACD /* libiconv.tbd in Frameworks */,
+				020FBA92229EF94A00880ACD /* CoreTelephony.framework in Frameworks */,
+				020FBA90229EF94200880ACD /* CoreGraphics.framework in Frameworks */,
+				020FBA8E229EF93A00880ACD /* SystemConfiguration.framework in Frameworks */,
+				020FBA8C229EF93000880ACD /* Security.framework in Frameworks */,
+				C93636CD0835EE95A4538285 /* Pods_majsoul.framework in Frameworks */,
+				020FBA8A229EF90800880ACD /* TencentOpenAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02951BDA229E7F8F007FC59B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C86FEDE23A358D629737AA87 /* Pods_majsoulTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02951BE5229E7F8F007FC59B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E35CE7E8184422A6C0FC3B /* Pods_majsoulUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0271690C229E815600D17107 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				02716948229E815C00D17107 /* Resource */,
+				02E87765229F825D00E6C088 /* magic-majsoul-Bridging-Header.h */,
+				0271692B229E815600D17107 /* Tool */,
+				02716915229E815600D17107 /* View */,
+			);
+			name = Classes;
+			path = "../../../Magic Majsoul/magic-majsoul/magic-majsoul/Classes";
+			sourceTree = "<group>";
+		};
+		02716915229E815600D17107 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02716916229E815600D17107 /* Control */,
+				02716923229E815600D17107 /* Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		02716916229E815600D17107 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				0289C10E22A516FA0084E0CD /* Plugins */,
+				0289C10D22A516EC0084E0CD /* ViewModel */,
+				0289C10C22A516DD0084E0CD /* About */,
+				0289C10022A516C40084E0CD /* Logger */,
+				0289C0FB22A516C30084E0CD /* PluginsMall */,
+				0289C11322A517350084E0CD /* ControlController.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		02716923229E815600D17107 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				02E87737229F81B100E6C088 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0271692B229E815600D17107 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				02F9CD7322A20F0500F20F0E /* GCDWebServerUploader */,
+				0271692C229E815600D17107 /* Thor */,
+				0271692E229E815600D17107 /* Util */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		0271692C229E815600D17107 /* Thor */ = {
+			isa = PBXGroup;
+			children = (
+				02E8774C229F823200E6C088 /* MajsoulProtocol.swift */,
+			);
+			path = Thor;
+			sourceTree = "<group>";
+		};
+		0271692E229E815600D17107 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				02E87748229F822600E6C088 /* Extensions.swift */,
+				02E87749229F822600E6C088 /* Uitl.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		02716948229E815C00D17107 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0202EBFB22A234860084FD67 /* 解锁全人物.majplugin */,
+				02E87755229F824E00E6C088 /* 关闭实名认证.majplugin */,
+				02E8774F229F824E00E6C088 /* 开启报菜名.majplugin */,
+				02E87758229F824E00E6C088 /* 修改背景.majplugin */,
+				02E87754229F824E00E6C088 /* 修改点数显示板.majplugin */,
+				02E87752229F824E00E6C088 /* 修改麻将牌.majplugin */,
+				02E8774E229F824E00E6C088 /* 一姬立绘修改.majplugin */,
+				02E87756229F824E00E6C088 /* BridgeViewController.h */,
+				02E87751229F824E00E6C088 /* BridgeViewController.m */,
+				02E87750229F824E00E6C088 /* init.js */,
+				02E87753229F824E00E6C088 /* loading_1.gif */,
+				02E87757229F824E00E6C088 /* loading_2.gif */,
+				02E87759229F824E00E6C088 /* loading_3.gif */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0289C0FB22A516C30084E0CD /* PluginsMall */ = {
+			isa = PBXGroup;
+			children = (
+				0289C11122A5172D0084E0CD /* PluginsMallViewController.swift */,
+			);
+			name = PluginsMall;
+			path = Setting/PluginsMall;
+			sourceTree = SOURCE_ROOT;
+		};
+		0289C10022A516C40084E0CD /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				0289C10F22A517220084E0CD /* LoggerViewController.swift */,
+			);
+			name = Logger;
+			path = Setting/Logger;
+			sourceTree = SOURCE_ROOT;
+		};
+		0289C10C22A516DD0084E0CD /* About */ = {
+			isa = PBXGroup;
+			children = (
+				0289C11922A517910084E0CD /* AboutViewController.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		0289C10D22A516EC0084E0CD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0289C11522A5177E0084E0CD /* MainNavViewController.swift */,
+				0289C11622A5177E0084E0CD /* MainTabbarViewController.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0289C10E22A516FA0084E0CD /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				0289C11B22A517A30084E0CD /* PluginsViewController.swift */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
+		02951BC0229E7F8E007FC59B = {
+			isa = PBXGroup;
+			children = (
+				02951BCB229E7F8E007FC59B /* majsoul */,
+				02951BE0229E7F8F007FC59B /* majsoulTests */,
+				02951BEB229E7F8F007FC59B /* majsoulUITests */,
+				02951BCA229E7F8E007FC59B /* Products */,
+				0DBF97FECABD995969CFE09B /* Pods */,
+				6FADFFA175021E2A33ACC534 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		02951BCA229E7F8E007FC59B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02951BC9229E7F8E007FC59B /* 雀魂X.app */,
+				02951BDD229E7F8F007FC59B /* majsoulTests.xctest */,
+				02951BE8229E7F8F007FC59B /* majsoulUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02951BCB229E7F8E007FC59B /* majsoul */ = {
+			isa = PBXGroup;
+			children = (
+				0271690C229E815600D17107 /* Classes */,
+				02951BCC229E7F8E007FC59B /* AppDelegate.swift */,
+				02951BCE229E7F8E007FC59B /* ViewController.swift */,
+				02951BD0229E7F8E007FC59B /* Main.storyboard */,
+				02951BD3229E7F8F007FC59B /* Assets.xcassets */,
+				02951BD5229E7F8F007FC59B /* LaunchScreen.storyboard */,
+				02951BD8229E7F8F007FC59B /* Info.plist */,
+			);
+			path = majsoul;
+			sourceTree = "<group>";
+		};
+		02951BE0229E7F8F007FC59B /* majsoulTests */ = {
+			isa = PBXGroup;
+			children = (
+				02951BE1229E7F8F007FC59B /* majsoulTests.swift */,
+				02951BE3229E7F8F007FC59B /* Info.plist */,
+			);
+			path = majsoulTests;
+			sourceTree = "<group>";
+		};
+		02951BEB229E7F8F007FC59B /* majsoulUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02951BEC229E7F8F007FC59B /* majsoulUITests.swift */,
+				02951BEE229E7F8F007FC59B /* Info.plist */,
+			);
+			path = majsoulUITests;
+			sourceTree = "<group>";
+		};
+		02F9CD7322A20F0500F20F0E /* GCDWebServerUploader */ = {
+			isa = PBXGroup;
+			children = (
+				02F9CD7522A20F1300F20F0E /* GCDWebUploader.h */,
+				02F9CD7422A20F1300F20F0E /* GCDWebUploader.m */,
+			);
+			path = GCDWebServerUploader;
+			sourceTree = "<group>";
+		};
+		0DBF97FECABD995969CFE09B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA45B167ABC3500BBF3DE556 /* Pods-majsoul.debug.xcconfig */,
+				5823665C57B8E21C064B13D4 /* Pods-majsoul.release.xcconfig */,
+				380BA8DF66CB29421E04F60B /* Pods-majsoulTests.debug.xcconfig */,
+				6AD3A68A1A191C072ADEF23A /* Pods-majsoulTests.release.xcconfig */,
+				1C88E3487A7B1DFBEE1E61F3 /* Pods-majsoulUITests.debug.xcconfig */,
+				08CC2BE57E850E5E40EC3D30 /* Pods-majsoulUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6FADFFA175021E2A33ACC534 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02F9CD7122A20EF600F20F0E /* GCDWebUploader.bundle */,
+				02B8A252229F00F60080F954 /* CFNetwork.framework */,
+				02B8A250229EFA4A0080F954 /* libstdc++.tbd */,
+				020FBA99229EF9DA00880ACD /* libc++.tbd */,
+				020FBA97229EF99200880ACD /* libz.tbd */,
+				020FBA95229EF97900880ACD /* libsqlite3.tbd */,
+				020FBA93229EF96A00880ACD /* libiconv.tbd */,
+				020FBA91229EF94A00880ACD /* CoreTelephony.framework */,
+				020FBA8F229EF94200880ACD /* CoreGraphics.framework */,
+				020FBA8D229EF93A00880ACD /* SystemConfiguration.framework */,
+				020FBA8B229EF93000880ACD /* Security.framework */,
+				020FBA89229EF90800880ACD /* TencentOpenAPI.framework */,
+				9A6E5EAE0D4A47D7110E8219 /* Pods_majsoul.framework */,
+				B2CE3E32D953BDD589C46643 /* Pods_majsoulTests.framework */,
+				981C4975F535518804C88E58 /* Pods_majsoulUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02951BC8229E7F8E007FC59B /* majsoul */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02951BF1229E7F8F007FC59B /* Build configuration list for PBXNativeTarget "majsoul" */;
+			buildPhases = (
+				40BDC59AA9A9660D438A131C /* [CP] Check Pods Manifest.lock */,
+				02951BC5229E7F8E007FC59B /* Sources */,
+				02951BC6229E7F8E007FC59B /* Frameworks */,
+				02951BC7229E7F8E007FC59B /* Resources */,
+				61C2D9A7A65405DA14C733A1 /* [CP] Embed Pods Frameworks */,
+				1950423124C0D1B6E29FCAD8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = majsoul;
+			productName = majsoul;
+			productReference = 02951BC9229E7F8E007FC59B /* 雀魂X.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02951BDC229E7F8F007FC59B /* majsoulTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02951BF4229E7F8F007FC59B /* Build configuration list for PBXNativeTarget "majsoulTests" */;
+			buildPhases = (
+				3870489B7A9B226E2C2FFAD8 /* [CP] Check Pods Manifest.lock */,
+				02951BD9229E7F8F007FC59B /* Sources */,
+				02951BDA229E7F8F007FC59B /* Frameworks */,
+				02951BDB229E7F8F007FC59B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02951BDF229E7F8F007FC59B /* PBXTargetDependency */,
+			);
+			name = majsoulTests;
+			productName = majsoulTests;
+			productReference = 02951BDD229E7F8F007FC59B /* majsoulTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02951BE7229E7F8F007FC59B /* majsoulUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02951BF7229E7F8F007FC59B /* Build configuration list for PBXNativeTarget "majsoulUITests" */;
+			buildPhases = (
+				C65173B8F90DE21B993C941E /* [CP] Check Pods Manifest.lock */,
+				02951BE4229E7F8F007FC59B /* Sources */,
+				02951BE5229E7F8F007FC59B /* Frameworks */,
+				02951BE6229E7F8F007FC59B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02951BEA229E7F8F007FC59B /* PBXTargetDependency */,
+			);
+			name = majsoulUITests;
+			productName = majsoulUITests;
+			productReference = 02951BE8229E7F8F007FC59B /* majsoulUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02951BC1229E7F8E007FC59B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = moxcomic;
+				TargetAttributes = {
+					02951BC8229E7F8E007FC59B = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					02951BDC229E7F8F007FC59B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 02951BC8229E7F8E007FC59B;
+					};
+					02951BE7229E7F8F007FC59B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 02951BC8229E7F8E007FC59B;
+					};
+				};
+			};
+			buildConfigurationList = 02951BC4229E7F8E007FC59B /* Build configuration list for PBXProject "majsoul" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 02951BC0229E7F8E007FC59B;
+			productRefGroup = 02951BCA229E7F8E007FC59B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02951BC8229E7F8E007FC59B /* majsoul */,
+				02951BDC229E7F8F007FC59B /* majsoulTests */,
+				02951BE7229E7F8F007FC59B /* majsoulUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02951BC7229E7F8E007FC59B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E87764229F824F00E6C088 /* loading_3.gif in Resources */,
+				02E8775C229F824F00E6C088 /* init.js in Resources */,
+				02E87761229F824F00E6C088 /* 关闭实名认证.majplugin in Resources */,
+				02951BD7229E7F8F007FC59B /* LaunchScreen.storyboard in Resources */,
+				02E8775B229F824F00E6C088 /* 开启报菜名.majplugin in Resources */,
+				02951BD4229E7F8F007FC59B /* Assets.xcassets in Resources */,
+				02E87763229F824F00E6C088 /* 修改背景.majplugin in Resources */,
+				02951BD2229E7F8E007FC59B /* Main.storyboard in Resources */,
+				02E8775A229F824F00E6C088 /* 一姬立绘修改.majplugin in Resources */,
+				02E8775E229F824F00E6C088 /* 修改麻将牌.majplugin in Resources */,
+				02E87762229F824F00E6C088 /* loading_2.gif in Resources */,
+				02F9CD7222A20EF600F20F0E /* GCDWebUploader.bundle in Resources */,
+				02E87760229F824F00E6C088 /* 修改点数显示板.majplugin in Resources */,
+				02E8775F229F824F00E6C088 /* loading_1.gif in Resources */,
+				0202EBFC22A234860084FD67 /* 解锁全人物.majplugin in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02951BDB229E7F8F007FC59B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02951BE6229E7F8F007FC59B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1950423124C0D1B6E29FCAD8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-majsoul/Pods-majsoul-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-majsoul/Pods-majsoul-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-majsoul/Pods-majsoul-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3870489B7A9B226E2C2FFAD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-majsoulTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40BDC59AA9A9660D438A131C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-majsoul-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61C2D9A7A65405DA14C733A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-majsoul/Pods-majsoul-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-majsoul/Pods-majsoul-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-majsoul/Pods-majsoul-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C65173B8F90DE21B993C941E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-majsoulUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02951BC5229E7F8E007FC59B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0289C11C22A517A30084E0CD /* PluginsViewController.swift in Sources */,
+				02951BCF229E7F8E007FC59B /* ViewController.swift in Sources */,
+				0289C11722A5177F0084E0CD /* MainNavViewController.swift in Sources */,
+				02951BCD229E7F8E007FC59B /* AppDelegate.swift in Sources */,
+				0289C11A22A517910084E0CD /* AboutViewController.swift in Sources */,
+				0289C11222A5172D0084E0CD /* PluginsMallViewController.swift in Sources */,
+				0289C11422A517350084E0CD /* ControlController.swift in Sources */,
+				02F9CD7622A20F1300F20F0E /* GCDWebUploader.m in Sources */,
+				0289C11022A517230084E0CD /* LoggerViewController.swift in Sources */,
+				0289C11822A5177F0084E0CD /* MainTabbarViewController.swift in Sources */,
+				02E87739229F81B100E6C088 /* MainViewController.swift in Sources */,
+				02E8774B229F822600E6C088 /* Uitl.swift in Sources */,
+				02E8774A229F822600E6C088 /* Extensions.swift in Sources */,
+				02E8774D229F823200E6C088 /* MajsoulProtocol.swift in Sources */,
+				02E8775D229F824F00E6C088 /* BridgeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02951BD9229E7F8F007FC59B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02951BE2229E7F8F007FC59B /* majsoulTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02951BE4229E7F8F007FC59B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02951BED229E7F8F007FC59B /* majsoulUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02951BDF229E7F8F007FC59B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02951BC8229E7F8E007FC59B /* majsoul */;
+			targetProxy = 02951BDE229E7F8F007FC59B /* PBXContainerItemProxy */;
+		};
+		02951BEA229E7F8F007FC59B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02951BC8229E7F8E007FC59B /* majsoul */;
+			targetProxy = 02951BE9229E7F8F007FC59B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02951BD0229E7F8E007FC59B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02951BD1229E7F8E007FC59B /* Base */,
+				0288F8CC22A0BDC0009AEAF0 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02951BD5229E7F8F007FC59B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02951BD6229E7F8F007FC59B /* Base */,
+				0288F8CD22A0BDC0009AEAF0 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02951BEF229E7F8F007FC59B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02951BF0229E7F8F007FC59B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02951BF2229E7F8F007FC59B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA45B167ABC3500BBF3DE556 /* Pods-majsoul.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU8H9UQL9A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = majsoul/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"iconv\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CryptoSwift\"",
+					"-framework",
+					"\"ESTabBarController_swift\"",
+					"-framework",
+					"\"EasyAnimation\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"Kingfisher\"",
+					"-framework",
+					"\"NSURLProtocolWebKitSupport\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"RASFloatingBall\"",
+					"-framework",
+					"\"Regex\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SSZipArchive\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"UIKit\"",
+					"-fobjc-arc",
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxcomic.majsoulco;
+				PRODUCT_NAME = "雀魂X";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/aria/Desktop/WorkSpace/iOS开发/Swift开发/majsoul/majsoul/majsoul/Classes/magic-majsoul-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02951BF3229E7F8F007FC59B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5823665C57B8E21C064B13D4 /* Pods-majsoul.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU8H9UQL9A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = majsoul/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"iconv\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CryptoSwift\"",
+					"-framework",
+					"\"ESTabBarController_swift\"",
+					"-framework",
+					"\"EasyAnimation\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"Kingfisher\"",
+					"-framework",
+					"\"NSURLProtocolWebKitSupport\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"RASFloatingBall\"",
+					"-framework",
+					"\"Regex\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SSZipArchive\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"UIKit\"",
+					"-fobjc-arc",
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxcomic.majsoulco;
+				PRODUCT_NAME = "雀魂X";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/aria/Desktop/WorkSpace/iOS开发/Swift开发/majsoul/majsoul/majsoul/Classes/magic-majsoul-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02951BF5229E7F8F007FC59B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 380BA8DF66CB29421E04F60B /* Pods-majsoulTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU8H9UQL9A;
+				INFOPLIST_FILE = majsoulTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxcomic.majsoulTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/majsoul.app/majsoul";
+			};
+			name = Debug;
+		};
+		02951BF6229E7F8F007FC59B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AD3A68A1A191C072ADEF23A /* Pods-majsoulTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU8H9UQL9A;
+				INFOPLIST_FILE = majsoulTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxcomic.majsoulTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/majsoul.app/majsoul";
+			};
+			name = Release;
+		};
+		02951BF8229E7F8F007FC59B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C88E3487A7B1DFBEE1E61F3 /* Pods-majsoulUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU8H9UQL9A;
+				INFOPLIST_FILE = majsoulUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxcomic.majsoulUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = majsoul;
+			};
+			name = Debug;
+		};
+		02951BF9229E7F8F007FC59B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08CC2BE57E850E5E40EC3D30 /* Pods-majsoulUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU8H9UQL9A;
+				INFOPLIST_FILE = majsoulUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxcomic.majsoulUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = majsoul;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02951BC4229E7F8E007FC59B /* Build configuration list for PBXProject "majsoul" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02951BEF229E7F8F007FC59B /* Debug */,
+				02951BF0229E7F8F007FC59B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02951BF1229E7F8F007FC59B /* Build configuration list for PBXNativeTarget "majsoul" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02951BF2229E7F8F007FC59B /* Debug */,
+				02951BF3229E7F8F007FC59B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02951BF4229E7F8F007FC59B /* Build configuration list for PBXNativeTarget "majsoulTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02951BF5229E7F8F007FC59B /* Debug */,
+				02951BF6229E7F8F007FC59B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02951BF7229E7F8F007FC59B /* Build configuration list for PBXNativeTarget "majsoulUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02951BF8229E7F8F007FC59B /* Debug */,
+				02951BF9229E7F8F007FC59B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02951BC1229E7F8E007FC59B /* Project object */;
+}
