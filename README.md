@@ -25,5 +25,5 @@ QQ群：61012117
 ![image](https://github.com/moxcomic/majsoul-x/blob/master/IMG_2678.PNG)
 
 # 赞助
-![image](https://github.com/moxcomic/majsoul-x/blob/master/alipay.PNG)
-![image](https://github.com/moxcomic/majsoul-x/blob/master/wechat.PNG)
+![image](https://github.com/moxcomic/majsoul-x/blob/master/alipay.JPG)
+![image](https://github.com/moxcomic/majsoul-x/blob/master/wechatpay.JPG)
