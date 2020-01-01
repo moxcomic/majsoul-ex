@@ -1,6 +1,0 @@
-framework module Pods_majsoulUITests {
-  umbrella header "Pods-majsoulUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}

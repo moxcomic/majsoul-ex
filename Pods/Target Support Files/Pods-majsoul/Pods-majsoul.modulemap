@@ -1,6 +1,0 @@
-framework module Pods_majsoul {
-  umbrella header "Pods-majsoul-umbrella.h"
-
-  export *
-  module * { export * }
-}
