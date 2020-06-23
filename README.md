@@ -10,7 +10,7 @@ Android: `重构中`
 # 安装
 ## iOS
 ### 自行签名安装
-    1. 访问 releasese页面 下载最新版本的ipa文件
+    1. 访问 releases页面 下载最新版本的ipa文件
     2. 使用 Cydia Impactor/AltStore/AltDeploy等工具签名安装
     注意: 自行签名的证书有效期为7天, 每7天需要重复一次签名操作
 ### 付费版本
