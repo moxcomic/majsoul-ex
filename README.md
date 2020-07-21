@@ -33,5 +33,5 @@ Android: `重构中`
 
 B站ID: 神崎 • H • 亚里亚
 # 关于雀魂Ex
-- QQ交流群: 61012117
+- QQ交流群: 991568358
 - Twitter: @MajsoulEx
