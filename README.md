@@ -4,14 +4,12 @@
 
 ### 版本信息
 
-[![VersionLatest](https://img.shields.io/github/release/moxcomic/majsoul-ex) ![DownloadsLatest](https://img.shields.io/github/downloads/moxcomic/majsoul-ex/latest/total)](https://github.com/moxcomic/majsoul-ex/releases/latest)
-
+[![VersionLatest](https://img.shields.io/github/release/moxcomic/majsoul-ex) ![DownloadsLatest](https://img.shields.io/github/downloads/moxcomic/majsoul-ex/latest/total)](https://github.com/moxcomic/majsoul-ex/releases/latest)  
 [![Windows](https://img.shields.io/badge/Windows-1.0.37-ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest) [![macOS](https://img.shields.io/badge/macOS-1.0.37-ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest) [![macOS M1](https://img.shields.io/badge/macOS%20M1-1.0.37-ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest) [![Linux](https://img.shields.io/badge/Linux-1.0.37-ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest) [![Android](https://img.shields.io/badge/Android-1.2.4-ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest) [![iOS](https://img.shields.io/badge/iOS-3.2.0-ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest)
 
 ### 重要更新及说明
 
-如果你的版本低于[![Windows](https://img.shields.io/badge/Windows-1.0.33-ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest)或[![Android](https://img.shields.io/badge/Android-1.2.2-ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest)请尽快升级以达到稳定的转换插件效果
-
+如果你的版本低于[![Windows](https://img.shields.io/badge/Windows-1.0.33-ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest)或[![Android](https://img.shields.io/badge/Android-1.2.2-ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest)请尽快升级以达到稳定的转换插件效果  
 PC 版本需要自行安装`Chrome浏览器`否则不会启动游戏
 
 ### 对比`雀魂Plus`有哪些`区别`?
@@ -26,14 +24,10 @@ PC 版本需要自行安装`Chrome浏览器`否则不会启动游戏
 ### 插件新标准
 
 `以下列出所有内容必须存在`
-assets 文件夹: 用于存放所有资源文件
-
-scripts 文件夹: 用于存放所有 JavaScript 脚本, 脚本尽量放在此文件夹
-
-mainscripts 文件夹: 用于存放所有 JavaScript 脚本
-
-preview.png: 插件预览图, `必须`为 png 图片
-
+assets 文件夹: 用于存放所有资源文件  
+scripts 文件夹: 用于存放所有 JavaScript 脚本, 脚本尽量放在此文件夹  
+mainscripts 文件夹: 用于存放所有 JavaScript 脚本  
+preview.png: 插件预览图, `必须`为 png 图片  
 manifest.json: 插件清单文件, 用于标识插件作者、版本号等
 
 ### 插件清单文件
@@ -50,8 +44,7 @@ manifest.json: 插件清单文件, 用于标识插件作者、版本号等
 }
 ```
 
-所有字段均为`string`不能有其他属性值, 例如`"author": ["foo", "bar"]`是不被允许的格式, 正确格式应为`"author": "foo, bar"`
-
+所有字段均为`string`不能有其他属性值, 例如`"author": ["foo", "bar"]`是不被允许的格式, 正确格式应为`"author": "foo, bar"`  
 `这时候肯定就有人问了, 那么在哪里声明资源文件呢？请看下方说明`
 
 ### 扩展资源文件
