@@ -69,7 +69,7 @@ manifest.json: 插件清单文件, 用于标识插件作者、版本号等
 
 ### 赞助本项目
 
-如果对您有所帮助，欢迎您的赞赏
+请作者喝一杯咖啡
 
 <figure class="third">
     <img src="https://moxcomic.github.io/wechat.png" width=170>
