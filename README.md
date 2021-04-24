@@ -1,4 +1,4 @@
-[English]("./README_EN.md")
+[English](README_EN.md)
 
 ### 什么是`雀魂Ex`?
 
