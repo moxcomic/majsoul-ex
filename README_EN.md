@@ -12,7 +12,7 @@ MajSoul Ex is a third-party client that supports all platforms, supports the ins
 If your version is lower than [![Windows](https://img.shields.io/badge/Windows-1.0.33-ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest) or [![Android](https://img.shields.io/badge/Android-1.2.2-ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest) please Upgrade as soon as possible to achieve a stable conversion plug-in effect  
 The PC version needs to install the `Chrome browser` by yourself, otherwise the game will not start
 
-What are the `differences` compared to `MajSoul Plus`?
+What are the `differences` compared to `MajSoul Plus`?  
 [![1](https://img.shields.io/static/v1?label=New%20Concept&message=New%20concept,no%20longer%20distinguish%20mspe/mspm/mspr&color=ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest)
 [![2](https://img.shields.io/static/v1?label=New%20Extension&message=More%20intuitive%20development,%20convenient%20for%20developers%20and%20users&color=ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest)
 [![3](https://img.shields.io/static/v1?label=Faster%20Speed&message=New%20technology%20optimizes%20the%20loading%20speed,%20which%20is%20much%20faster%20than%20Majsoul%20Plus&color=ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest)
