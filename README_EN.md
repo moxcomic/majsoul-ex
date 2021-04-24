@@ -13,11 +13,11 @@ If your version is lower than [![Windows](https://img.shields.io/badge/Windows-1
 The PC version needs to install the `Chrome browser` by yourself, otherwise the game will not start
 
 What are the `differences` compared to `MajSoul Plus`?  
-[![1](https://img.shields.io/static/v1?label=New%20Concept&message=New%20concept,no%20longer%20distinguish%20mspe/mspm/mspr&color=ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest)
-[![2](https://img.shields.io/static/v1?label=New%20Extension&message=More%20intuitive%20development,%20convenient%20for%20developers%20and%20users&color=ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest)
-[![3](https://img.shields.io/static/v1?label=Faster%20Speed&message=New%20technology%20optimizes%20the%20loading%20speed,%20which%20is%20much%20faster%20than%20Majsoul%20Plus&color=ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest)
-[![4](https://img.shields.io/static/v1?label=Better%20Performance&message=The%20software%20developed%20by%20Go%20and%20C%20far%20surpasses%20Majsoul%20Plus%20in%20performance%20and%20efficiency&color=ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest)
-[![5](<https://img.shields.io/static/v1?label=New%20Kernel&message=The%20new%20mechanism%20can%20use%20the%20latest%20Chromium%2090%20kernel%20(Majsoul%20Plus%20uses%2078%20kernel)&color=ff69b4>)](https://github.com/moxcomic/majsoul-ex/releases/latest)
+[![1](https://img.shields.io/static/v1?label=New%20Concept&message=New%20concept,no%20longer%20distinguish%20mspe/mspm/mspr&color=ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest)  
+[![2](https://img.shields.io/static/v1?label=New%20Extension&message=More%20intuitive%20development,%20convenient%20for%20developers%20and%20users&color=ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest)  
+[![3](https://img.shields.io/static/v1?label=Faster%20Speed&message=New%20technology%20optimizes%20the%20loading%20speed,%20which%20is%20much%20faster%20than%20Majsoul%20Plus&color=ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest)  
+[![4](https://img.shields.io/static/v1?label=Better%20Performance&message=The%20software%20developed%20by%20Go%20and%20C%20far%20surpasses%20Majsoul%20Plus%20in%20performance%20and%20efficiency&color=ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest)  
+[![5](<https://img.shields.io/static/v1?label=New%20Kernel&message=The%20new%20mechanism%20can%20use%20the%20latest%20Chromium%2090%20kernel%20(Majsoul%20Plus%20uses%2078%20kernel)&color=ff69b4>)](https://github.com/moxcomic/majsoul-ex/releases/latest)  
 [![6](https://img.shields.io/static/v1?label=Less%20Lag&message=The%20software%20developed%20by%20Go%20and%20C%20occupies%20less%20memory%20than%20Majsoul%20Plus%20developed%20by%20Electron.&color=ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest)
 
 ### New standard for plug-ins
