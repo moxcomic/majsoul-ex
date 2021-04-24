@@ -1,3 +1,5 @@
+[English]("./README_EN.md")
+
 ### 什么是`雀魂Ex`?
 
 雀魂 Ex 是一个支持全平台的第三方客户端，支持安装自定义扩展，其使用体验上和官方客户端大致相同。
@@ -53,12 +55,12 @@ manifest.json: 插件清单文件, 用于标识插件作者、版本号等
 
 ### 资源匹配规则
 
-雀魂本身的资源需要严格按照路径存放才会被替换
-例: `/1/v.0.8.188.w/extendRes/charactor/yiji/full.png`就需要在 assets 目录下存放为`extendRes/charactor/yiji/full.png`
+雀魂本身的资源需要严格按照路径存放才会被替换  
+例: `/1/v.0.8.188.w/extendRes/charactor/yiji/full.png`就需要在 assets 目录下存放为`extendRes/charactor/yiji/full.png`  
 如果需要适配`chs_t`、`jp`、`en`也需要在前面加上, 例如替换繁体一姬`chs_t/extendRes/charactor/yiji/full.png`
 
-对于扩展作者自己加载的资源可以不按照全路径存放
-例: `fetch('./foo/bar/yiji.png')` 发出的请求路径为 `/foo/bar/yiji.png` 此时会匹配到 `foo/bar/yiji.png`、`bar/yiji.png`、`yiji.png`
+对于扩展作者自己加载的资源可以不按照全路径存放  
+例: `fetch('./foo/bar/yiji.png')` 发出的请求路径为 `/foo/bar/yiji.png` 此时会匹配到 `foo/bar/yiji.png`、`bar/yiji.png`、`yiji.png`  
 具体是否要按照全路径存放取决于扩展开发者，为防止其他插件冲突尽量按照全路径存放
 
 ### 雀魂 Ex 官方
