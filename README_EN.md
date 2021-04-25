@@ -48,7 +48,7 @@ All fields are `string` and cannot have other attribute values. For example, `"a
 
 ### Extended resource file
 
-`MajSoul Ex` automatically reads the `assets` directory and automatically matches the resource files in the same path, so `does not need` in the manifest file to be long...long...long...very long The replace and resourpack field declaration `, `As long as resources are placed in the assets folder, they will be automatically read and recognized`
+`MajSoul Ex` automatically reads the `assets` directory and automatically matches the resource files in the same path, so `does not need` in the manifest file to be long...long...long...very long The replace and resourcepack field declaration `, `As long as resources are placed in the assets folder, they will be automatically read and recognized`
 
 ### Resource matching rules
 
