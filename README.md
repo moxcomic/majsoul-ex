@@ -7,7 +7,7 @@
 ### 版本信息
 
 [![VersionLatest](https://img.shields.io/github/release/moxcomic/majsoul-ex) ![DownloadsLatest](https://img.shields.io/github/downloads/moxcomic/majsoul-ex/latest/total)](https://github.com/moxcomic/majsoul-ex/releases/latest)  
-[![Windows](https://img.shields.io/badge/Windows-1.0.38-ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest) [![macOS](https://img.shields.io/badge/macOS-1.0.38-ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest) [![macOS M1](https://img.shields.io/badge/macOS%20M1-1.0.38-ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest) [![Linux](https://img.shields.io/badge/Linux-1.0.38-ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest) [![Android](https://img.shields.io/badge/Android-1.2.4-ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest) [![iOS](https://img.shields.io/badge/iOS-3.2.0-ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest)
+[![Windows](https://img.shields.io/badge/Windows-1.0.39-ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest) [![macOS](https://img.shields.io/badge/macOS-1.0.39-ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest) [![macOS M1](https://img.shields.io/badge/macOS%20M1-1.0.39-ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest) [![Linux](https://img.shields.io/badge/Linux-1.0.39-ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest) [![Android](https://img.shields.io/badge/Android-1.2.4-ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest) [![iOS](https://img.shields.io/badge/iOS-3.2.0-ff69b4)](https://github.com/moxcomic/majsoul-ex/releases/latest)
 
 ### 重要更新及说明
 
